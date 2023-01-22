@@ -10,7 +10,7 @@ ax.scatter(x_values, y_values, c = y_values, cmap = plt.cm.Blues, s = 10)
 #Information of the graffic
 ax.set_title("Square numbers", fontsize = 24) #Fontsize controls the size of the text
 ax.set_xlabel("Values", fontsize = 14)
-ax.set_ylabel("Squares", fontsize = 14)
+ax.set_ylabel("Squares of Values", fontsize = 14)
 
 #Set range for each axis
 ax.axis([0, 1100, 0, 1100000])
